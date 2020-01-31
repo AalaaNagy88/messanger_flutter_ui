@@ -64,4 +64,35 @@ List<Message> chats=[
   )
 ];
 
+List<Message>messages=[
+  Message(
+      sender: current_user,
+      time: "5:30PM",
+      text: "See you,bye",
+      isLiked: false,
+      unread: true
+  ),
+  Message(
+      sender: james,
+      time: "5:30PM",
+      text: "See you,bye",
+      isLiked: true,
+      unread: true
+  ),
+  Message(
+      sender: current_user,
+      time: "5:30PM",
+      text: "See you,bye",
+      isLiked: true,
+      unread: true
+  ),
+  Message(
+      sender: james,
+      time: "5:30PM",
+      text: "See you,bye",
+      isLiked: false,
+      unread: true
+  )
+];
+
 
